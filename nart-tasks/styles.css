@@ -1,0 +1,12 @@
+.exercise1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5; 
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
