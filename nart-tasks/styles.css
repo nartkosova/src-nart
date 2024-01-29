@@ -10,3 +10,9 @@ img{
     display: block; 
     margin: 0 auto;
 }
+body {
+    overflow-x: hidden;
+}
+footer{
+    background-color: lightgray;
+}
