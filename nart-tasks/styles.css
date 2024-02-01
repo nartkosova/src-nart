@@ -1,8 +1,26 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
 .exercise1 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.5; 
+}
+.exercise3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.4; 
+}
+.exercise31{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
 }
 img{
     max-width: 100%;
@@ -10,9 +28,30 @@ img{
     display: block; 
     margin: 0 auto;
 }
-body {
-    overflow-x: hidden;
+.base-font{
+color: #fff;
+}
+.col-md-12{
+    margin-top: 15px;
+     margin-bottom: 15px;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.table {
+    margin-top: 25px;
 }
 footer{
-    background-color: lightgray;
+    background-color: #343a40;
+    min-height: 40px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
