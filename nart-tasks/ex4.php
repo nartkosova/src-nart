@@ -12,20 +12,30 @@
                 $age = $_POST["age"];
             }
             ?> 
-            <form name="ageform" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-            <label for="name">Name:</label>
-            <input type="text" name="name" required><br>
-            <label for="age">Age:</label>
-            <input type="number" name="age" required><br>
-            <input type="submit" value="Check Eligibility"> <br></br>
-            <?php if ($_SERVER["REQUEST_METHOD"] == "POST")  
-            {if ($age>=18){
-                echo "<p>You are eligible to vote!</p>";
-            }else {
-                echo "<p>You are too young to vote!</p>";
-            }}?> 
-        </form>
-             </div>
+            <form name="ageform" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="mt-3">
+            <div class="form-group">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" name="name" required>
+            </div>
+            <div class="form-group">
+            <label for="age" class="form-label">Age:</label>
+            <input type="number" class="form-control" name="age" required>
+            </div>
+            <div class="form-group">
+            <input type="submit" class="btn btn-primary form-control" value="Check Eligibility">
+            </div>
+            <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+               $age = $_POST['age'];
+                    if ($age >= 18) {
+                        echo "<p class='mt-3'>You are eligible to vote!</p>";
+                    } else {
+                        echo "<p class='mt-3'>You are too young to vote!</p>";
+                    }
+                }
+                ?>
+            </form>
+            </div>
         <h3>3.Switch Case: Write a PHP script that gets the current month and prints one of the following responses, 
             depending on whether it's August or not: It's August, so it's still holiday.
             Not August, this is Month-name so I don't have any holidays</h3>

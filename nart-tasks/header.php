@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../nart-tasks/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
     <title><?php echo $title; ?></title>
@@ -18,16 +18,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="ex1.php">Exercise 1 <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../nart-tasks/ex1.php">Exercise 1 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ex1.php">Exercise 2</a>
+                        <a class="nav-link" href="../nart-tasks/ex1.php">Exercise 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ex3.php">Exercise 3</a>
+                        <a class="nav-link" href="../nart-tasks/ex3.php">Exercise 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="ex4.php">Exercise 4</a>
+                        <a class="nav-link" href="../nart-tasks/ex4.php">Exercise 4</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Exercise 5</a>
@@ -36,7 +36,7 @@
                         <a class="nav-link" href="#">Exercise 6</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exercise 7</a>
+                        <a class="nav-link" href="../crud/index.php">Exercise 7</a>
                     </li>
                 </ul>
             </div>
