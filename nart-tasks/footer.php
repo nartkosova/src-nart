@@ -4,10 +4,10 @@
             <div class="socials">
             </div>
             <div class="custom-div">
-            <a href="https://twitter.com"> Twitter </a>
-            <a href="https://linkedin.com"> LinkedIn </a>
-            <a href="https://facebook.com"> Facebook </a>
-            <a href="https://github.com"> GitHub </a>
+            <a href="https://twitter.com"style=color:red> Twitter </a>
+            <a href="https://linkedin.com"style=color:red> LinkedIn </a>
+            <a href="https://facebook.com"style=color:red> Facebook </a>
+            <a href="https://github.com"style=color:red> GitHub </a>
             </div>
             <?php
     $filename = basename($_SERVER['PHP_SELF']);
